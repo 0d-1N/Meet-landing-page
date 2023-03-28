@@ -31,3 +31,43 @@
 .image-hero-left-meet-landing , .image-hero-right-meet-landing{
     width: 222px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article-of-context-meeting-landing{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-img{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img-context{
+    width: 100px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

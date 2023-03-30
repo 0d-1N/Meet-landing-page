@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     border: 1px solid black;
 }
 
@@ -71,3 +71,10 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
+.article-of-context-meeting-landing{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+

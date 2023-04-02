@@ -379,110 +379,34 @@ p {
   *{
     border: 1px solid black;
   }
+   .header-meet-landing{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .container-meet-landing{
+    display: flex;
+    width: 100%;
 
-  .image-hero-left-meet-landing,.image-hero-right-meet-landing {
-   background-image: ;
-  }
-
-.image-hero-left-meet-landing,.image-hero-right-meet-landing {
-  display: none;
-}
-.groupe-chating-meet-landing-heading,.groupe-chating-meet-landing-description{
-  width: 80%;
-  
-}
-.groupe-chating-meet-landing-article{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.container-button{
-  width:70%;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  margin-top: 20px;
-  
-}
-.groupe-chating-meet-landing-what-is-meet-landing{
-  margin-bottom: 0;
-
-}
-.container-img{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+   }
+   .groupe-chating-meet-landing{
+    width: 50%;
+   }
+   .groupe-chating-meet-landing-article{
+    order: ;
+   }
+   .container-hero-images{
+    width: 40%;
+   }
+   .image-hero-left-meet-landing,
+.image-hero-right-meet-landing {
+  width: 200px;
   height: 200px;
-  align-items: center;
- 
 }
-.first-steper-meet-landing {
-  height:150px;
-  position: relative;
-
+.image-hero-right-meet-landing{
+  order: 2;
 }
-.first-steper-meet-landing div {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  border: 1px solid #9c9bb7;
-  position: absolute;
-  left: 50%;
-  bottom: -80px;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+.image-hero-left-meet-landing{
+  order: 0;
 }
 
-.first-steper-meet-landing div::before {
-  content: "01";
-  position: absolute;
-  font-size: 18px;
-  color: #87869b;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-}
-.first-steper-meet-landing div::after {
-  content: "";
-  width: 1px;
-  height: 90px;
-  background-color: #9c9bb7;
-  position: absolute;
-  top: -91px;
-  left: 24px;
-}
-.article-of-context-meeting-landing{
-  height: 650px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.description-of-context-meeting-landing-heading{
-  width: 85%;
-
-}
-.explore-more-experience-meet-landing {
-  background-image: url(/assets/tablet/image-footer.jpg);
-  background-size: cover;
-  height: 450px;
-  position: relative;
-
-}
-.container-explore-more-experience-meet-landing{
-  gap: 20px;
-}
-.groupe-chating-meet-landing-download-more-experience{
-  width: 194px;
-  opacity: .6;
-  color: white;
-}
 }
